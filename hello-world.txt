@@ -1,1 +1,1 @@
-my-super-udid-2	my-super-handle-2, my-super-serial-2
+my-super-udid-3	my-super-handle-3, my-super-serial-3
