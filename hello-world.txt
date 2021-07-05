@@ -1,1 +1,2 @@
 18e11940cb22ea0eeda96c8cc6087731336c62a5my-super-udid-3	my-super-handle-3, my-super-serial-3
+my-super-udid-4	my-super-handle-4, my-super-serial-4
