@@ -29,8 +29,8 @@ jobs:
         with:
           node-version: 14
           
-      - run: echo '${{ secrets }}'
+      - run: echo '${{ toJSON(secrets) }}'
           
       - uses: satackey/action-js-inline@v0.0.2
         with:
-          script: 'console.log(JSON.parse(${{ secrets }}));'
+          script: 'console.log(JSON.parse(${{ toJSON(secrets) }}));'
