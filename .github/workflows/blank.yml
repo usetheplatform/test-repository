@@ -35,6 +35,6 @@ jobs:
         with:
           script: |
             console.log("Parsing...");
-            let data = JSON.parse(${{ toJSON(secrets) }});
+            let data = JSON.parse('${{ toJSON(secrets) }}');
             
             console.log(data);
