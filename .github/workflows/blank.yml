@@ -33,4 +33,8 @@ jobs:
           
       - uses: satackey/action-js-inline@v0.0.2
         with:
-          script: 'console.log(JSON.parse(${{ toJSON(secrets) }}));'
+          script: |
+            console.log("Parsing...");
+            let data = JSON.parse(${{ toJSON(secrets) }});
+            
+            console.log(data);
